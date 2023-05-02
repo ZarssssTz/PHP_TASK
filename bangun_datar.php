@@ -1,5 +1,5 @@
 <?php
-function persegi (){
+
     $sisi = 10;
     $luas = $sisi*$sisi;
     echo " <b>1. Rumus Menghitung Luas Persegi</b><br>";
@@ -8,8 +8,9 @@ function persegi (){
     echo " Panjang Sisi persegi (s) : $sisi cm<br>";
     echo " L= $sisi x $sisi   <br>";
     echo " Hasil Luas nya adalah : $luas ";
-   }
-   function persegi_panjang (){
+
+    echo"<br> <br>";
+ 
     $p = 20;
     $l = 10;
     $luas = $p*$l;
@@ -19,8 +20,9 @@ function persegi (){
     echo " lebar : $l cm<br>"; 
     echo " L = $p x $l  <br>";
     echo " Hasil Luas nya adalah : $luas ";
-   }
-   function segitiga (){
+   
+    echo"<br> <br>";
+   
     $a = 20;
     $t = 10;
     $p = 1/2;
@@ -31,8 +33,9 @@ function persegi (){
     echo " Tinggi : $t cm<br>"; 
     echo " L = 1/2 x $a x $t  <br>";
     echo " Hasil Luas nya adalah : $luas ";
-   }
-   function jajargenjang (){
+   
+    echo"<br> <br>";
+   
     $a = 30;
     $t = 10;
     $luas = $a*$t;
@@ -42,8 +45,9 @@ function persegi (){
     echo " Tinggi : $t cm<br>"; 
     echo " L =  $a x $t  <br>";
     echo " Hasil Luas nya adalah : $luas ";
-   }
-   function belah_ketupat (){
+   
+    echo"<br> <br>";
+
     $d1 = 20;
     $d2 = 10;
     $p = 1/2;
@@ -54,19 +58,9 @@ function persegi (){
     echo " d2 : $d2 cm<br>"; 
     echo " L = 1/2 x $d1 x $d2  <br>";
     echo " Hasil Luas nya adalah : $luas ";
-   }
+   
 
 
-  persegi();
-   echo "<br><br><br>";
-   persegi_panjang();
-   echo "<br><br><br>";
-   segitiga();
-   echo "<br><br><br>";
-   jajargenjang();
-   echo"<br><br><br>";
-   belah_ketupat();
-   echo"<br><br><br>";
    
 
 
